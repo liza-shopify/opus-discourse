@@ -560,3 +560,6 @@ html body #main-outlet {
 .topic-list .main-link.focused {
   box-shadow: none;
 }
+body.has-sidebar-page .wrap {
+  max-width: 100%;
+}
