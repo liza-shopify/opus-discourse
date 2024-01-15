@@ -590,6 +590,18 @@ body.has-sidebar-page .wrap {
   & + p {
     display: none;
   }
+  &:before {
+    content: '';
+    display: block;
+    width: 252px;
+    height: 127px;
+    margin: 0 auto 5px;
+    mix-blend-mode: lighten;
+    background-size: 100% 100%!important;
+    background-position: center!important;
+    background-repeat: no-repeat!important;
+    background: url(//feelopus.com/cdn/shop/files/62dc72d578ac0847b51f894479827ba9.gif?v=1703597736);
+  }
 }
 @media (min-width: 768px) {
   .custom-search-banner-wrap h1 {
@@ -612,6 +624,11 @@ body.has-sidebar-page .wrap {
     border: 1px solid #A498A6;
     background: transparent;
     padding: 1px 7px;
+  }
+}
+.custom-search-banner-wrap .search-menu .search-menu-container:not(.active) {
+  .search-menu-panel.menu-panel {
+    display: none!important;
   }
 }
 .cmnt__form-overlay {
@@ -642,5 +659,10 @@ body.has-sidebar-page .wrap {
   .custom-search-banner-wrap .search-menu .search-menu-container.active {
     width: calc(100% - 30px);
     max-width: 639px;
+  }
+  .custom-search-banner-wrap h1:before {
+    width: 378px;
+    height: 224px;
+    margin-bottom: 13px;
   }
 }
