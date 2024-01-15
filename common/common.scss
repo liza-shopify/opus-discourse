@@ -560,3 +560,22 @@ body.has-sidebar-page .wrap {
   padding: 0;
   padding-left: 0!important;
 }
+.custom-search-banner-wrap h1 {
+  text-align: center;
+  font-size: 44px;
+  line-height: 48px;
+  letter-spacing: -1px;
+  background: #f4f4f4;
+  background: radial-gradient(circle farthest-corner at center center,#F4F4F4 0%,#45304D 100%);
+  -webkit-background-clip: text!important;
+  -webkit-text-fill-color: transparent;
+  width: fit-content;
+  margin: 0 auto;
+}
+@media (min-width: 768px) {
+  .cmnt__title {
+    font-size: 54px;
+    line-height: 62px;
+    letter-spacing: -1px;
+  }
+}
