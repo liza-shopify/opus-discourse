@@ -587,6 +587,9 @@ body.has-sidebar-page .wrap {
   -webkit-text-fill-color: transparent;
   width: fit-content;
   margin: 0 auto;
+  & + p {
+    display: none;
+  }
 }
 @media (min-width: 768px) {
   .custom-search-banner-wrap h1 {
