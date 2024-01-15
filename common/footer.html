@@ -1,0 +1,13 @@
+<script>
+    document.addEventListener('DOMContentLoaded', function (event) {
+
+        let input = document.querySelector('#search-term');
+        let form = document.querySelector('.search-menu-container');
+        input.onblur = function() {
+            form.classList.remove('active');
+        };
+        input.onfocus = function() {
+            form.classList.add('active');
+        };
+    })
+</script>

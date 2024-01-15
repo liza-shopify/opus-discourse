@@ -602,6 +602,10 @@ body.has-sidebar-page .wrap {
   position: relative;
   max-width: 250px;
   margin: 16px auto 40px;
+  &.active {
+    position: relative;
+    z-index: 99;
+  }
   .search-input {
     outline: none;
     border-radius: 100px;
@@ -610,10 +614,33 @@ body.has-sidebar-page .wrap {
     padding: 1px 7px;
   }
 }
+.cmnt__form-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(28, 21, 33, 0.90);
+  backdrop-filter: blur(10px);
+  opacity: 0;
+  z-index: 0;
+  visibility: hidden;
+  transition: opacity .2s;
+  &.active {
+    z-index: 98;
+    visibility: visible;
+    opacity: 1;
+  }
+}
+
 @media (min-width: 768px) {
   .search-menu-container {
     margin-top: 36px;
     border-radius: 200px;
     transition: .2s;
+  }
+  .search-menu-container.active {
+    width: calc(100% - 30px);
+    max-width: 639px;
   }
 }
