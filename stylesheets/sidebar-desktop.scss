@@ -42,3 +42,14 @@ body.has-sidebar-page {
     rgba(var(--secondary), 1)
   );
 }
+.search-menu-container {
+  position: relative;
+  max-width: 250px;
+  margin: 16px auto 40px;
+  .search-input {
+    outline: none;
+    border-radius: 100px;
+    border: 1px solid #A498A6;
+    background: transparent;
+  }
+}
