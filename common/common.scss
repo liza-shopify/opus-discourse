@@ -639,7 +639,7 @@ body.has-sidebar-page .wrap {
     border-radius: 200px;
     transition: .2s;
   }
-  .search-menu-container.active {
+  .custom-search-banner-wrap .search-menu .search-menu-container.active {
     width: calc(100% - 30px);
     max-width: 639px;
   }

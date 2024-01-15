@@ -1,13 +1,19 @@
 <script>
+    console.log('gg')
     document.addEventListener('DOMContentLoaded', function (event) {
 
         let input = document.querySelector('#search-term');
         let form = document.querySelector('.search-menu-container');
+        let overlay = document.querySelector('.cmnt__form-overlay');
         input.onblur = function() {
+            console.log('aa')
             form.classList.remove('active');
+            overlay.classList.remove('active');
         };
         input.onfocus = function() {
+            console.log('bb')
             form.classList.add('active');
+            overlay.classList.add('active');
         };
     })
 </script>
