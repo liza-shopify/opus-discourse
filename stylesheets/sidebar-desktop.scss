@@ -8,6 +8,8 @@
 }
 
 #main-outlet-wrapper {
+  grid-template-columns: none!important;
+  gap: 0!important;
   .sidebar-wrapper {
     margin: 30px 0 50px;
     background-color: var(--secondary);
