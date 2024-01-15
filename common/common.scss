@@ -598,15 +598,16 @@ body.has-sidebar-page .wrap {
     letter-spacing: -1px;
   }
 }
-.search-menu-container {
+.custom-search-banner-wrap .search-menu .search-menu-container {
   position: relative;
   max-width: 250px;
   margin: 16px auto 40px;
   .search-input {
-    outline: none!important;
+    outline: none;
     border-radius: 100px;
-    border: 1px solid #A498A6!important;
+    border: 1px solid #A498A6;
     background: transparent;
+    padding: 1px 7px;
   }
 }
 @media (min-width: 768px) {
