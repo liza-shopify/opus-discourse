@@ -589,9 +589,27 @@ body.has-sidebar-page .wrap {
   margin: 0 auto;
 }
 @media (min-width: 768px) {
-  .cmnt__title {
+  .custom-search-banner-wrap h1 {
     font-size: 54px;
     line-height: 62px;
     letter-spacing: -1px;
+  }
+}
+.search-menu-container {
+  position: relative;
+  max-width: 250px;
+  margin: 16px auto 40px;
+  .search-input {
+    outline: none!important;
+    border-radius: 100px;
+    border: 1px solid #A498A6!important;
+    background: transparent;
+  }
+}
+@media (min-width: 768px) {
+  .search-menu-container {
+    margin-top: 36px;
+    border-radius: 200px;
+    transition: .2s;
   }
 }
