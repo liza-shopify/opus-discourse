@@ -614,6 +614,7 @@ body.has-sidebar-page .wrap {
   position: relative;
   max-width: 250px;
   margin: 16px auto 40px;
+  z-index: 99;
   &.active {
     position: relative;
     z-index: 99;
