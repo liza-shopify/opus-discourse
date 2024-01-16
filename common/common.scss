@@ -626,7 +626,15 @@ body.has-sidebar-page .wrap {
     padding: 1px 7px;
   }
 }
-.search-menu-panel.menu-panel {
+.search-menu .browser-search-tip, .search-menu .search-random-quick-tip, .search-menu-container .browser-search-tip, .search-menu-container .search-random-quick-tip {
+  color: #C8C8C8;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 14px; /* 100% */
+}
+.search-menu .browser-search-tip .tip-label, .search-menu .search-random-quick-tip .tip-label, .search-menu-container .browser-search-tip .tip-label, .search-menu-container .search-random-quick-tip .tip-label {
+  background: none;
   color: #C8C8C8;
   font-size: 14px;
   font-style: normal;
@@ -637,6 +645,10 @@ body.has-sidebar-page .wrap {
   .search-menu-panel.menu-panel {
     //display: none!important;
   }
+}
+.custom-search-banner-wrap .results {
+  background: transparent;
+  box-shadow: none;
 }
 .cmnt__form-overlay {
   position: fixed;
