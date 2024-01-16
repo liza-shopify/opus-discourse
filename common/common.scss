@@ -677,7 +677,7 @@ body.has-sidebar-page .wrap {
     border-radius: 200px;
     transition: .2s;
   }
-  .custom-search-banner-wrap .search-menu .search-menu-container.active {
+  .custom-search-banner-wrap .search-menu.active .search-menu-container {
     width: calc(100% - 30px);
     max-width: 639px;
   }
