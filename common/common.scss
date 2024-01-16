@@ -614,17 +614,18 @@ body.has-sidebar-page .wrap {
   position: relative;
   max-width: 250px;
   margin: 16px auto 40px;
-  z-index: 99;
-  &.active {
-    position: relative;
-    z-index: 99;
-  }
   .search-input {
     outline: none;
     border-radius: 100px;
     border: 1px solid #A498A6;
     background: transparent;
     padding: 1px 7px;
+  }
+}
+.custom-search-banner-wrap .search-menu.active {
+  .search-menu-container {
+    position: relative;
+    z-index: 99;
   }
 }
 .search-menu .browser-search-tip, .search-menu .search-random-quick-tip, .search-menu-container .browser-search-tip, .search-menu-container .search-random-quick-tip {
