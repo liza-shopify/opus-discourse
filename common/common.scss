@@ -626,6 +626,13 @@ body.has-sidebar-page .wrap {
     padding: 1px 7px;
   }
 }
+.search-menu-panel.menu-panel {
+  color: #C8C8C8;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 14px; /* 100% */
+}
 .custom-search-banner-wrap .search-menu .search-menu-container:not(.active) {
   .search-menu-panel.menu-panel {
     display: none!important;
