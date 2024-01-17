@@ -1,0 +1,32 @@
+#topic-title .title-wrapper {
+  justify-content: center;
+  width: 100%;
+}
+
+#topic-title h1 {
+  margin-bottom: 18px;
+  font-size: 54px;
+  line-height: 62px;
+  letter-spacing: -1px;
+  background-image: radial-gradient(circle farthest-corner at center center,#F4F4F4 0%,#45304D 100%);
+}
+
+#topic-title {
+  .topic-category {
+    width: 100%;
+  }
+}
+
+.container.posts {
+  --primary: #A498A6;
+
+  display: block;
+}
+
+.container.posts .topic-navigation {
+  display: none;
+}
+
+.onscreen-post .row {
+  justify-content: center;
+}
