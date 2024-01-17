@@ -1,0 +1,20 @@
+.discourse-tags {
+  gap: 4px;
+}
+
+.discourse-tag {
+  --primary: #e8e5e5;
+
+  padding: 4px 8px;
+  border-radius: 10px;
+  font-size: 8px;
+  line-height: 10.579px;
+  background-color: #372941;
+
+  @media (min-width: 992px) {
+    padding: 5px 10px;
+    border-radius: 12.6px;
+    font-size: 12px;
+    line-height: 13.136px;
+  }
+}
