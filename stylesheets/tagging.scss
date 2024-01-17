@@ -4,12 +4,17 @@
 
 .discourse-tag {
   --primary: #e8e5e5;
+  --primary-low-mid: #e8e5e5;
+  --primary-low: #372941;
 
   padding: 4px 8px;
   border-radius: 10px;
   font-size: 8px;
   line-height: 10.579px;
-  background-color: #372941;
+
+  &:hover {
+    color: var(--primary-low) !important;
+  }
 
   @media (min-width: 992px) {
     padding: 5px 10px;
