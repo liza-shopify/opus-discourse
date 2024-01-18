@@ -220,6 +220,13 @@ nav.post-controls {
       }
 
       .small-action {
+        --danger-low-mid: transparent;
+        --primary-low: rgba(71,66,75,.9);
+
+        max-width: 784px;
+        margin-left: auto;
+        margin-right: auto;
+
         .topic-avatar {
           padding-top: 0;
 
@@ -227,15 +234,6 @@ nav.post-controls {
             margin: auto;
           }
         }
-      }
-
-      .small-action.deleted {
-        --danger-low-mid: transparent;
-        --primary-low: rgba(71,66,75,.9);
-
-        max-width: 784px;
-        margin-left: auto;
-        margin-right: auto;
       }
     }
 
