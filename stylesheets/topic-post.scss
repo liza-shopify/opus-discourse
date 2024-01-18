@@ -172,6 +172,37 @@ nav.post-controls {
 
     font-size: var(--font-0);
   }
+
+  .topic-area {
+    .post-stream {
+      .gap {
+        --primary-med-or-secondary-high: #fff;
+
+        width: 100%;
+        max-width: 784px;
+        padding-left: 0;
+        margin-left: auto;
+        margin-right: auto;
+        opacity: 1;
+        background: radial-gradient(72.93% 86.72% at 15.23% 94.14%, #EB55B2 0%, #EB484E 48.44%, #F0935E 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: rgba(0,0,0,0);
+      }
+    }
+
+    .loading-container {
+      max-width: 784px;
+      width: 100%;
+      margin-left: auto;
+      margin-right: auto;
+
+      .topic-timer-info {
+        --primary-low: rgba(71,66,75,.9);
+
+        max-width: 100%;
+      }
+    }
+  }
 }
 
 .names {
@@ -183,6 +214,7 @@ nav.post-controls {
 .post-links-container {
   --primary-med-or-secondary-med: #fff;
   --primary-low: rgba(71,66,75,.9);
+  --primary-medium: #fff;
 
   margin-left: 0;
   font-size: 16px;
@@ -198,8 +230,16 @@ nav.post-controls {
     padding-top: 24px;
 
     @media (min-width: 992px) {
-      margin: 80 px - 30 px 0;
+      margin: 80px -30px 0;
       padding: 36px 13px 0 29px;
+    }
+
+    .track-link {
+      span:not(.badge) {
+        background: radial-gradient(72.93% 86.72% at 15.23% 94.14%, #EB55B2 0%, #EB484E 48.44%, #F0935E 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+      }
     }
   }
 
@@ -216,11 +256,25 @@ nav.post-controls {
   }
 }
 
+.topic-above-footer-buttons-outlet {
+  .presence {
+    min-height: 0;
+  }
+
+  .topic-status-info,
+  .topic-timer-info {
+    --primary-low: rgba(71,66,75,.9);
+
+    max-width: 100%;
+  }
+}
+
 #topic-footer-buttons {
   --font-0: 14px;
   --primary-low: #372842;
   --primary: #fff;
   --primary-high: #A498A6;
+  --tertiary: #9919A1;
 
   max-width: 784px;
   width: 100%;
@@ -232,8 +286,16 @@ nav.post-controls {
     padding: 0.72em 1.08em;
   }
 
+  .topic-footer-main-buttons {
+    button {
+      margin-right: 0.72em;
+    }
+  }
+
   .topic-notifications-button {
     .text {
+      margin-left: 10px;
+
       a {
         background: radial-gradient(72.93% 86.72% at 15.23% 94.14%, #EB55B2 0%, #EB484E 48.44%, #F0935E 100%);
         -webkit-background-clip: text;
