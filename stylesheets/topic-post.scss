@@ -1,3 +1,10 @@
+.archetype-regular {
+  .above-main-container-outlet,
+  #main-container {
+    display: none;
+  }
+}
+
 .display-search-banner #main-outlet {
   @media screen and (min-width: 750px) {
     padding-top: 5rem;
