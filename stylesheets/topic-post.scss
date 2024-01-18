@@ -97,8 +97,11 @@ nav.post-controls {
     width: 100%;
 
     .topic-meta-data {
-      max-width: calc(100% - 295px);
       padding-top: 8px;
+
+      @media (min-width: 992px) {
+        max-width: calc(100% - 295px);
+      }
     }
   }
 
