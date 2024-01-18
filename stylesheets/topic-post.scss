@@ -5,6 +5,8 @@
 }
 
 #topic-title {
+  margin-bottom: 40px;
+
   .title-wrapper {
     justify-content: center;
     width: 100%;
@@ -116,7 +118,7 @@ nav.post-controls {
         color: #fff;
       }
 
-      > a {
+      a {
         opacity: 1;
         background: radial-gradient(72.93% 86.72% at 15.23% 94.14%, #EB55B2 0%, #EB484E 48.44%, #F0935E 100%);
         -webkit-background-clip: text;
@@ -135,6 +137,9 @@ nav.post-controls {
     }
 
     .lightbox-wrapper {
+      display: block;
+      text-align: center;
+
       --secondary-high: #fff;
 
       margin: 22px auto 36px;
@@ -152,12 +157,14 @@ nav.post-controls {
   .post-menu-area {
     margin-left: auto;
     margin-top: -37px;
+    margin-bottom: 40px;
   }
 
   .topic-meta-data {
     --base-font-size: 16px;
     --font-0: 16px;
     --primary-med-or-secondary-med: #7d6f80;
+    --primary-high-or-secondary-low: #7d6f80;
 
     font-size: var(--font-0);
   }
@@ -167,5 +174,9 @@ nav.post-controls {
   span a {
     //color: #7d6f80;
   }
+}
+
+.post-links-container {
+  margin-left: 0;
 }
 
