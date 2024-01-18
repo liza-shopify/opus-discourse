@@ -3,6 +3,11 @@
   #main-container {
     display: none;
   }
+
+  #main-outlet {
+    width: 100%;
+    background: transparent;
+  }
 }
 
 .display-search-banner #main-outlet {
@@ -99,7 +104,7 @@ nav.post-controls {
     .topic-meta-data {
       padding-top: 8px;
 
-      @media (min-width: 992px) {
+      @media (min-width: 769px) {
         max-width: calc(100% - 295px);
       }
     }
@@ -108,8 +113,9 @@ nav.post-controls {
   .contents {
     --base-font-size: 16px;
 
-    width: 100%;
     display: flex;
+    width: 100%;
+    padding: 0;
     flex-flow: row wrap;
     float: none;
     font-size: var(--base-font-size);
