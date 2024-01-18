@@ -5,8 +5,8 @@
   }
 
   #main-outlet {
-    width: 100%;
-    background: transparent;
+    width: 100% !important;
+    background-color: transparent !important;
   }
 }
 
@@ -76,6 +76,8 @@ nav.post-controls {
   }
 
   .post-notice {
+    --primary-low: rgba(71,66,75,.9);
+
     max-width: 100%;
   }
 
@@ -98,6 +100,8 @@ nav.post-controls {
   }
 
   .topic-body {
+    --primary-low: rgba(71,66,75,.9);
+
     float: none;
     width: 100%;
 
