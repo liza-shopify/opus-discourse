@@ -185,7 +185,7 @@ nav.post-controls {
       .gap {
         --primary-med-or-secondary-high: #fff;
 
-        width: 100%;
+        width: calc(var(--topic-body-width) + var(--topic-avatar-width) + var(--topic-body-width-padding)*2);
         max-width: 784px;
         padding-left: 0;
         margin-left: auto;
@@ -226,6 +226,17 @@ nav.post-controls {
         max-width: 784px;
         margin-left: auto;
         margin-right: auto;
+        justify-content: center;
+
+        &.time-gap {
+          .topic-avatar {
+            display: none;
+          }
+
+          .small-action-desc.timegap {
+            padding-left: 0;
+          }
+        }
 
         .topic-avatar {
           padding-top: 0;
