@@ -59,6 +59,12 @@
 
 nav.post-controls {
   .actions {
+    @media (min-width: 992px) {
+      flex-wrap: wrap;
+      justify-content: space-between;
+      max-width: 230px;
+    }
+
     a, button {
       --primary-low-mid-or-secondary-high: #fff;
     }
@@ -401,7 +407,7 @@ nav.post-controls {
   }
 
   .popup-menu,
-  .dropdown-select-box-header {
+  .select-kit-collection {
     --primary: #372842;
   }
 }
