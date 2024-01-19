@@ -98,6 +98,10 @@ nav.post-controls {
     height: auto;
   }
 
+  .row > .topic-avatar {
+    border-top: transparent;
+  }
+
   .avatar {
     width: 36px;
     height: 36px;
@@ -230,6 +234,9 @@ nav.post-controls {
 
       .topic-map {
         --primary-low: rgba(71,66,75,.9);
+        --primary-high: #A498A6;
+        --blend-primary-secondary-5: #372842;
+
         background: transparent;
         border: transparent;
 
@@ -391,5 +398,10 @@ nav.post-controls {
         }
       }
     }
+  }
+
+  .popup-menu,
+  .dropdown-select-box-header {
+    --primary: #372842;
   }
 }
